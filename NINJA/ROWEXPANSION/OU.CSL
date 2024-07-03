@@ -1,0 +1,230 @@
+ZenGin Archive
+ver 1
+zCArchiverGeneric
+ASCII
+saveGame 0
+date 02.02.2024 15:11:57
+user Redefix
+END
+objects 55
+END
+
+[% zCCSLib 0 0]
+	NumOfItems=int:18
+[% zCCSBlock 0 1]
+blockName=string:Ninja_RoWExpansion_DIA_SATURAS_GOGETARMOR_15_01
+numOfBlocks=int:1
+subBlock0=float:0
+[% zCCSAtomicBlock 0 2]
+[% oCMsgConversation:oCNpcMessage:zCEventMessage 0 3]
+subType=enum:0
+text=string:Poèkej
+name=string:Ninja_RoWExpansion_DIA_SATURAS_GOGETARMOR_15_01.WAV
+[]
+[]
+[]
+[% zCCSBlock 0 4]
+blockName=string:Ninja_RoWExpansion_DIA_SATURAS_GOGETARMOR_15_02
+numOfBlocks=int:1
+subBlock0=float:0
+[% zCCSAtomicBlock 0 5]
+[% oCMsgConversation:oCNpcMessage:zCEventMessage 0 6]
+subType=enum:0
+text=string:Nechceme aby si dopadl stejnì jako Lance. Zdejší okolí je nebezpeènìjší než jsme si myslely. 
+name=string:Ninja_RoWExpansion_DIA_SATURAS_GOGETARMOR_15_02.WAV
+[]
+[]
+[]
+[% zCCSBlock 0 7]
+blockName=string:Ninja_RoWExpansion_DIA_SATURAS_GOGETARMOR_13_03
+numOfBlocks=int:1
+subBlock0=float:0
+[% zCCSAtomicBlock 0 8]
+[% oCMsgConversation:oCNpcMessage:zCEventMessage 0 9]
+subType=enum:0
+text=string:Jdi za Cronosem, mìl by pro tebe nìco mít.		
+name=string:Ninja_RoWExpansion_DIA_SATURAS_GOGETARMOR_13_03.WAV
+[]
+[]
+[]
+[% zCCSBlock 0 10]
+blockName=string:Ninja_RoWExpansion_DIA_CRONOS_GIVEARMORINDEED_15_01
+numOfBlocks=int:1
+subBlock0=float:0
+[% zCCSAtomicBlock 0 11]
+[% oCMsgConversation:oCNpcMessage:zCEventMessage 0 12]
+subType=enum:0
+text=string:Saturas øíkal že pro mnì nìco máš.
+name=string:Ninja_RoWExpansion_DIA_CRONOS_GIVEARMORINDEED_15_01.WAV
+[]
+[]
+[]
+[% zCCSBlock 0 13]
+blockName=string:Ninja_RoWExpansion_DIA_CRONOS_GIVEARMORINDEED_15_02
+numOfBlocks=int:1
+subBlock0=float:0
+[% zCCSAtomicBlock 0 14]
+[% oCMsgConversation:oCNpcMessage:zCEventMessage 0 15]
+subType=enum:0
+text=string:Ano, mám tu pro tebe lepší zbroj. Nechceme ztratit dalšiho èlena kruhu. 
+name=string:Ninja_RoWExpansion_DIA_CRONOS_GIVEARMORINDEED_15_02.WAV
+[]
+[]
+[]
+[% zCCSBlock 0 16]
+blockName=string:Ninja_RoWExpansion_DIA_CRONOS_GIVEARMORINDEED_13_03
+numOfBlocks=int:1
+subBlock0=float:0
+[% zCCSAtomicBlock 0 17]
+[% oCMsgConversation:oCNpcMessage:zCEventMessage 0 18]
+subType=enum:0
+text=string:Díky, bude se hodit.
+name=string:Ninja_RoWExpansion_DIA_CRONOS_GIVEARMORINDEED_13_03.WAV
+[]
+[]
+[]
+[% zCCSBlock 0 19]
+blockName=string:Ninja_RoWExpansion_DIA_Saturas_TemplarArmor_15_01
+numOfBlocks=int:1
+subBlock0=float:0
+[% zCCSAtomicBlock 0 20]
+[% oCMsgConversation:oCNpcMessage:zCEventMessage 0 21]
+subType=enum:0
+text=string:Stalo se tu mezitím nìco zajímavého?
+name=string:Ninja_RoWExpansion_DIA_Saturas_TemplarArmor_15_01.WAV
+[]
+[]
+[]
+[% zCCSBlock 0 22]
+blockName=string:Ninja_RoWExpansion_DIA_Saturas_TemplarArmor_15_02
+numOfBlocks=int:1
+subBlock0=float:0
+[% zCCSAtomicBlock 0 23]
+[% oCMsgConversation:oCNpcMessage:zCEventMessage 0 24]
+subType=enum:0
+text=string:Vlastnì ano, pøi našem prùzkumu zdejších ruin jsme našly zajímavou zbroj. Je v pøekvapivì dobrém stavu.
+name=string:Ninja_RoWExpansion_DIA_Saturas_TemplarArmor_15_02.WAV
+[]
+[]
+[]
+[% zCCSBlock 0 25]
+blockName=string:Ninja_RoWExpansion_DIA_Saturas_TemplarArmor_15_03
+numOfBlocks=int:1
+subBlock0=float:0
+[% zCCSAtomicBlock 0 26]
+[% oCMsgConversation:oCNpcMessage:zCEventMessage 0 27]
+subType=enum:0
+text=string:Podle jejího vzhledu tušime že patøila èlenùm váleènické kasty zdejších obyvatelù.
+name=string:Ninja_RoWExpansion_DIA_Saturas_TemplarArmor_15_03.WAV
+[]
+[]
+[]
+[% zCCSBlock 0 28]
+blockName=string:Ninja_RoWExpansion_DIA_Saturas_TemplarArmor_15_04
+numOfBlocks=int:1
+subBlock0=float:0
+[% zCCSAtomicBlock 0 29]
+[% oCMsgConversation:oCNpcMessage:zCEventMessage 0 30]
+subType=enum:0
+text=string:Svým vzhledem pøipomíná zbroj templáøù z tábora v bažinách, zajímavé...
+name=string:Ninja_RoWExpansion_DIA_Saturas_TemplarArmor_15_04.WAV
+[]
+[]
+[]
+[% zCCSBlock 0 31]
+blockName=string:Ninja_RoWExpansion_DIA_Saturas_TemplarArmor_15_05
+numOfBlocks=int:1
+subBlock0=float:0
+[% zCCSAtomicBlock 0 32]
+[% oCMsgConversation:oCNpcMessage:zCEventMessage 0 33]
+subType=enum:0
+text=string:Mùžeš mi jí dát? Urèitì by se mi hodila.
+name=string:Ninja_RoWExpansion_DIA_Saturas_TemplarArmor_15_05.WAV
+[]
+[]
+[]
+[% zCCSBlock 0 34]
+blockName=string:Ninja_RoWExpansion_DIA_Saturas_TemplarArmor_15_06
+numOfBlocks=int:1
+subBlock0=float:0
+[% zCCSAtomicBlock 0 35]
+[% oCMsgConversation:oCNpcMessage:zCEventMessage 0 36]
+subType=enum:0
+text=string:Je to sice pozùstatek obyvatelù Jharkendaru, ale dobrá, tvùj ùkol je dùležitìjší.
+name=string:Ninja_RoWExpansion_DIA_Saturas_TemplarArmor_15_06.WAV
+[]
+[]
+[]
+[% zCCSBlock 0 37]
+blockName=string:Ninja_RoWExpansion_DIA_Saturas_TemplarArmor_15_07
+numOfBlocks=int:1
+subBlock0=float:0
+[% zCCSAtomicBlock 0 38]
+[% oCMsgConversation:oCNpcMessage:zCEventMessage 0 39]
+subType=enum:0
+text=string:Až bude po všem, tak mi ji ale pøines zpátky.
+name=string:Ninja_RoWExpansion_DIA_Saturas_TemplarArmor_15_07.WAV
+[]
+[]
+[]
+[% zCCSBlock 0 40]
+blockName=string:Ninja_RoWExpansion_DIA_Saturas_BringBackTemplarArmor_RavenIsDead_15_01
+numOfBlocks=int:1
+subBlock0=float:0
+[% zCCSAtomicBlock 0 41]
+[% oCMsgConversation:oCNpcMessage:zCEventMessage 0 42]
+subType=enum:0
+text=string:Pøinesl jsem ti zpìt tu zbroj Válìènické kasty, tak jak si chtìl.
+name=string:Ninja_RoWExpansion_DIA_Saturas_BringBackTemplarArmor_RavenIsDead_15_01.WAV
+[]
+[]
+[]
+[% zCCSBlock 0 43]
+blockName=string:Ninja_RoWExpansion_DIA_Saturas_BringBackTemplarArmor_RavenIsDead_15_02
+numOfBlocks=int:1
+subBlock0=float:0
+[% zCCSAtomicBlock 0 44]
+[% oCMsgConversation:oCNpcMessage:zCEventMessage 0 45]
+subType=enum:0
+text=string:Dokonce je i stále v dobrém stavu, pøijmi mé díky.
+name=string:Ninja_RoWExpansion_DIA_Saturas_BringBackTemplarArmor_RavenIsDead_15_02.WAV
+[]
+[]
+[]
+[% zCCSBlock 0 46]
+blockName=string:Ninja_RoWExpansion_DIA_Saturas_RavenDeadArmor_15_01
+numOfBlocks=int:1
+subBlock0=float:0
+[% zCCSAtomicBlock 0 47]
+[% oCMsgConversation:oCNpcMessage:zCEventMessage 0 48]
+subType=enum:0
+text=string:Našly jste nìco zajímavého mezitím co jsem bojoval s Ravenem?
+name=string:Ninja_RoWExpansion_DIA_Saturas_RavenDeadArmor_15_01.WAV
+[]
+[]
+[]
+[% zCCSBlock 0 49]
+blockName=string:Ninja_RoWExpansion_DIA_Saturas_RavenDeadArmor_15_02
+numOfBlocks=int:1
+subBlock0=float:0
+[% zCCSAtomicBlock 0 50]
+[% oCMsgConversation:oCNpcMessage:zCEventMessage 0 51]
+subType=enum:0
+text=string:Ano, našly jsme další zbroj. Rozhodly jsme se ti ji vìnovat jako díky za tvojí pomoc s Ravenem.
+name=string:Ninja_RoWExpansion_DIA_Saturas_RavenDeadArmor_15_02.WAV
+[]
+[]
+[]
+[% zCCSBlock 0 52]
+blockName=string:Ninja_RoWExpansion_DIA_Saturas_RavenDeadArmor_15_03
+numOfBlocks=int:1
+subBlock0=float:0
+[% zCCSAtomicBlock 0 53]
+[% oCMsgConversation:oCNpcMessage:zCEventMessage 0 54]
+subType=enum:0
+text=string:Díky.
+name=string:Ninja_RoWExpansion_DIA_Saturas_RavenDeadArmor_15_03.WAV
+[]
+[]
+[]
+[]
