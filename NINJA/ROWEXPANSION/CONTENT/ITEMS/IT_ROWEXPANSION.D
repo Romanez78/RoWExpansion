@@ -341,3 +341,38 @@ INSTANCE ITAR_RNG_L_RoWExpansion (C_Item)
 	TEXT[5]					=	NAME_Value;			
 	COUNT[5]				= 	value;
 };
+	INSTANCE ItMw_1H_Rozjemca_RoWExpansion (C_Item)
+{	
+	name 				=	"ItMw_1h_Rozjemca__name";  //NUR MILIZ
+
+	mainflag 			=	ITEM_KAT_NF;
+	flags 				=	ITEM_SWD;	
+	material 			=	MAT_METAL;
+
+	value 				=	3000;
+
+	damageTotal  		= 	130;
+	damagetype 			=	DAM_EDGE;
+	range    			=  	110;		
+
+	cond_atr[2]   		=	ATR_STRENGTH;
+	cond_value[2]  		=	120;
+	visual 				=	"KM_SWORD_PEACEKEEPER.3DS";
+
+	description			= name;
+	TEXT[0]             ="+5% jednoruční talent.";	
+	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
+	TEXT[3] 			= NAME_Str_needed;				COUNT[3]	= cond_value[2];
+	TEXT[4] 			= NAME_OneHanded;
+	TEXT[5]				= NAME_Value;					COUNT[5]	= value;
+};
+func void Equip_ItMw_Rozjemca()
+{
+    // "self" it is C_NPC which is equipping armor
+    B_RaiseFightTalent(self, NPC_TALENT_1H, 5);
+};
+func void UnEquip_ItMw_Rozjemca()
+{
+    // "self" it is C_NPC which is unequipping armor
+    B_RaiseFightTalent(self, NPC_TALENT_1H, -5);
+	};
