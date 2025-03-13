@@ -6,8 +6,8 @@ func void Ninja_RoWExpansion_DIA_Addon_Lares_GetRangerArmor_Info ()
     
     AI_UnequipArmor(hero);
     Npc_RemoveInvItem(hero, ITAR_RANGER_Addon);
-    CreateInvItem(hero, ITAR_RNG_L);
-    AI_EquipArmor(hero, ITAR_RNG_L);
+    CreateInvItem(hero, ITAR_RNG_L_RoWExpansion);
+    AI_EquipArmor(hero, ITAR_RNG_L_RoWExpansion);
 };
 //-------------------------------------
 var int Variable_Ninja_RoWExpansion_DIA_Lares_GetArmor;
