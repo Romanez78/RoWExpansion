@@ -68,7 +68,7 @@ func void Ninja_RoWExpansion_DIA_Saturas_TemplarArmor_Info ()
 	AI_Output(other, self, Ninja_RoWExpansion_DIA_Saturas_TemplarArmor_15_05); //Můžeš mi jí dát? Určitě by se mi hodila.
 	AI_Output(self, other, Ninja_RoWExpansion_DIA_Saturas_TemplarArmor_15_06); //Je to sice pozůstatek obyvatelů Jharkendaru, ale dobrá, tvůj ůkol je důležitější.
 	AI_Output(self, other, Ninja_RoWExpansion_DIA_Saturas_TemplarArmor_15_07); //Až bude po všem, tak mi ji ale přines zpátky.
-	B_GiveInvItems(self, other, ITAR_RNG_TL, 1);
+	B_GiveInvItems(self, other, ITAR_RNG_TL_RoWExpansion, 1);
 	Ninja_RoWExpansion_DIA_Saturas_TemplarArmorKaufen_perm = TRUE;	
 };
 //-------------------------------------
@@ -86,7 +86,7 @@ instance Ninja_RoWExpansion_DIA_Saturas_TemplarArmor_RavenIsDead (C_INFO)
 func int Ninja_RoWExpansion_DIA_Saturas_BringBackTemplarArmor_RavenIsDead_Condition ()
 {	
 	if (RavenIsDead == TRUE)
-	&& (Npc_HasItems(other, ItAr_RNG_TL) > 0)
+	&& (Npc_HasItems(other, ItAr_RNG_TL_RoWExpansion) > 0)
 	{
 		return TRUE;
 	};
@@ -95,7 +95,7 @@ func void Ninja_RoWExpansion_DIA_Saturas_BringBackTemplarArmor_RavenIsDead_Info 
 {
     B_GivePlayerXP(50);
 	AI_Output(other, self, Ninja_RoWExpansion_DIA_Saturas_BringBackTemplarArmor_RavenIsDead_15_01); //Přinesl jsem ti zpět tu zbroj Válěčnické kasty, tak jak si chtěl.
-	B_GiveInvItems(other, self, ITAR_RNG_TL, 1);
+	B_GiveInvItems(other, self, ITAR_RNG_TL_RoWExpansion, 1);
 	AI_Output(self, other, Ninja_RoWExpansion_DIA_Saturas_BringBackTemplarArmor_RavenIsDead_15_02); //Dokonce je i stále v dobrém stavu, přijmi mé díky.
 };
 //-------------------------------------
@@ -122,7 +122,7 @@ func void Ninja_RoWExpansion_DIA_Saturas_RavenDeadArmor_Info ()
 {
     AI_Output(other, self, Ninja_RoWExpansion_DIA_Saturas_RavenDeadArmor_15_01); //Našly jste něco zajímavého mezitím co jsem bojoval s Ravenem?
 	AI_Output(self, other, Ninja_RoWExpansion_DIA_Saturas_RavenDeadArmor_15_02); //Ano, našly jsme další zbroj. Rozhodly jsme se ti ji věnovat jako díky za tvojí pomoc s Ravenem.
-    B_GiveInvItems(self, other, ITAR_RNG_TM, 1);
+    B_GiveInvItems(self, other, ITAR_RNG_TM_RoWExpansion, 1);
 	AI_Output(other, self, Ninja_RoWExpansion_DIA_Saturas_RavenDeadArmor_15_03); //Díky.
 };
 //-------------------------------------
@@ -159,7 +159,7 @@ func void Ninja_RoWExpansion_DIA_Saturas_KnowWhereEnemyIsGiveArmor_Info ()
 	AI_Output(other, self, Ninja_RoWExpansion_DIA_Saturas_KnowWhereEnemyIsGiveArmor_15_04); //Je to nejlepší zbroj jakou ti může kruh vody poskytnout, jen málo si ji zasloužilo nosit.
 	AI_Output(other, self, Ninja_RoWExpansion_DIA_Saturas_KnowWhereEnemyIsGiveArmor_15_05); //Taky prosím přijmi tento meč, byl vyroben jako kopie jednoho z nejsilnějších artefaktů mágů vody.	
 	AI_Output(other, self, Ninja_RoWExpansion_DIA_Saturas_KnowWhereEnemyIsGiveArmor_15_06); //Nos je s rozvahou a ať ti Adanos žehná.
-	B_GiveInvItems(self, other, ITAR_RNG_KM, 1);
-		B_GiveInvItems(self, other, ITMW_ROZJEMCA, 1);
+	B_GiveInvItems(self, other, ITAR_RNG_KM_RoWExpansion, 1);
+		B_GiveInvItems(self, other, ITMW_1H_ROZJEMCA_RoWExpansion, 1);
 	AI_Output(other, self, Ninja_RoWExpansion_DIA_Saturas_KnowWhereEnemyIsGiveArmor_15_08); //Děkuji.
 };
