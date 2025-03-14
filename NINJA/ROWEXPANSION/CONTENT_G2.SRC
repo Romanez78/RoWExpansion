@@ -1,8 +1,21 @@
 Ikarus
 LeGo
 
-// LIST YOUR FILES HERE
-Content\IT_ROWEXPANSION.d
-Content\DIA_ROWEXPANSION.d
-Content\RoWExpansionInit.d
-Content\NinjaInit.d
+// Localization
+Content\Localization\CzechROW.d
+Content\Localization\EnglishROW.d
+Content\Localization\PolishROW.d
+Content\Localization\GermanROW.d
+Content\Localization\GuessLocalizationROW.d
+
+// Items
+Content\Items\IT_ROWExpansion.d
+
+// Dialogs
+Content\Dialogs\SaturasROW.d
+Content\Dialogs\CronosROW.d
+Content\Dialogs\VatrasROW.d
+Content\Dialogs\LaresROW.d
+Content\Dialogs\AngarROW.d
+
+Content\ROWExpansionInit.d
